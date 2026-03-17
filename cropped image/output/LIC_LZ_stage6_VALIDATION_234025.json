@@ -1,0 +1,32 @@
+{
+    "good": [
+        "The graph accurately captures the connection between 'Azure AI Landing Zone' and 'DMZ Subscription' with the label 'Subscription boundary'.",
+        "The flow of traffic from 'DMZ Subscription' to 'Egress VNET', 'Inspection VNET', and 'Ingress VNET' is correctly represented.",
+        "The connections between 'Proxy Firewall', 'Azure Firewall', 'Application Gateway', and 'AI Services Virtual Network' are accurately depicted.",
+        "The connections from 'AI Services Virtual Network' to its subnets (e.g., 'API Management Subnet', 'Private Endpoints Subnet', 'Jump box Subnet', etc.) are correctly represented.",
+        "The integration of external systems (e.g., Payment GW, MoEngage, UIDAI, NSDL, NPCHI, NSEIT) with 'Proxy Firewall' is accurately captured.",
+        "The connection between 'On-premises network' and 'ExpressRoute' is correctly represented.",
+        "The flow of traffic from 'Corporate Subscription' to 'Corporate VNET' and its components (e.g., 'Azure DNS Private Resolver', 'VPN/ExpressRoute Gateways', 'Azure Firewall', etc.) is accurate.",
+        "The connections between 'AI Foundry Agent Service dependencies' and resources like 'Storage Account', 'AI Search', 'Cosmos DB', and 'Key Vault' are correctly represented."
+    ],
+    "bad": [
+        "The graph incorrectly shows multiple connections from 'AI Services Virtual Network' to 'Private Endpoint' with the same label '443/HTTPS'. These should be consolidated or clarified.",
+        "The connection from 'Azure AD P2' to 'Prometheus' with the label 'Prometheus Integration' is not visible in the diagram.",
+        "The connection from 'Prometheus' to 'Ingestion' with the label 'Metrics' is not visible in the diagram."
+    ],
+    "delta": [
+        "The connection between 'Azure DNS Private Resolver' and 'Azure Bastion' is missing in the graph but is visible in the diagram.",
+        "The connection between 'Azure DDOS' and 'Corporate Subscription' is missing in the graph but is visible in the diagram.",
+        "The connection between 'WAF' and 'Application Gateway' is missing in the graph but is visible in the diagram.",
+        "The connection between 'Redis Cache' and 'Stack' is missing in the graph but is visible in the diagram."
+    ],
+    "corrections_needed": [
+        "Consolidate the multiple connections from 'AI Services Virtual Network' to 'Private Endpoint' into a single connection or clarify the distinction between them.",
+        "Add the connection from 'Azure AD P2' to 'Prometheus' with the label 'Prometheus Integration'.",
+        "Add the connection from 'Prometheus' to 'Ingestion' with the label 'Metrics'.",
+        "Add the connection between 'Azure DNS Private Resolver' and 'Azure Bastion'.",
+        "Add the connection between 'Azure DDOS' and 'Corporate Subscription'.",
+        "Add the connection between 'WAF' and 'Application Gateway'.",
+        "Add the connection between 'Redis Cache' and 'Stack'."
+    ]
+}

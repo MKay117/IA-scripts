@@ -1,0 +1,1093 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "text": "Azure Al Landing Zone",
+            "bbox": [
+                32,
+                25,
+                247,
+                47
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "2",
+            "text": "DMZ Subscription",
+            "bbox": [
+                303,
+                41,
+                448,
+                60
+            ],
+            "parent_id": "1"
+        },
+        {
+            "id": "3",
+            "text": "Al Landing Zone Prod Subscription",
+            "bbox": [
+                624,
+                52,
+                910,
+                72
+            ],
+            "parent_id": "1"
+        },
+        {
+            "id": "4",
+            "text": "Ext Systems Payment GW Moengage UIDAI NSDL NPCHI NSEIT",
+            "bbox": [
+                32,
+                82,
+                138,
+                229
+            ],
+            "parent_id": "1"
+        },
+        {
+            "id": "5",
+            "text": "Egress VNET",
+            "bbox": [
+                331,
+                74,
+                442,
+                93
+            ],
+            "parent_id": "2"
+        },
+        {
+            "id": "6",
+            "text": "Al App Resource Group",
+            "bbox": [
+                1475,
+                79,
+                1667,
+                99
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "7",
+            "text": "Proxy Firewall",
+            "bbox": [
+                381,
+                126,
+                499,
+                147
+            ],
+            "parent_id": "5"
+        },
+        {
+            "id": "8",
+            "text": "Al Foundry Agent Service standard setup",
+            "bbox": [
+                1158,
+                122,
+                1495,
+                144
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "9",
+            "text": "Diagnostics Settings",
+            "bbox": [
+                1772,
+                127,
+                1836,
+                154
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "10",
+            "text": "Role assignments",
+            "bbox": [
+                723,
+                164,
+                793,
+                191
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "11",
+            "text": "Managed Identities",
+            "bbox": [
+                1633,
+                151,
+                1738,
+                165
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "12",
+            "text": "Al Foundry Agent Service dependencies",
+            "bbox": [
+                895,
+                171,
+                1221,
+                192
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "13",
+            "text": "Azure Al Foundry Services",
+            "bbox": [
+                1408,
+                170,
+                1626,
+                190
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "14",
+            "text": "User",
+            "bbox": [
+                192,
+                204,
+                219,
+                216
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "15",
+            "text": "Al Foundry Project",
+            "bbox": [
+                1467,
+                203,
+                1573,
+                217
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "16",
+            "text": "Inspection VNET",
+            "bbox": [
+                328,
+                220,
+                469,
+                240
+            ],
+            "parent_id": "2"
+        },
+        {
+            "id": "17",
+            "text": "Log Analytics Workspace",
+            "bbox": [
+                1766,
+                207,
+                1841,
+                234
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "18",
+            "text": "Workload policy assignments",
+            "bbox": [
+                713,
+                248,
+                801,
+                275
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "19",
+            "text": "Azure Firewall",
+            "bbox": [
+                404,
+                275,
+                523,
+                294
+            ],
+            "parent_id": "16"
+        },
+        {
+            "id": "20",
+            "text": "Al Services endpoints",
+            "bbox": [
+                1313,
+                276,
+                1377,
+                303
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "21",
+            "text": "Storage Account",
+            "bbox": [
+                904,
+                290,
+                999,
+                304
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "22",
+            "text": "Al Search",
+            "bbox": [
+                1015,
+                290,
+                1071,
+                303
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "23",
+            "text": "Key Vault",
+            "bbox": [
+                1174,
+                290,
+                1230,
+                303
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "24",
+            "text": "Foundry Models",
+            "bbox": [
+                1434,
+                278,
+                1482,
+                305
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "25",
+            "text": "Connections",
+            "bbox": [
+                1536,
+                278,
+                1605,
+                291
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "26",
+            "text": "Cosmos DB",
+            "bbox": [
+                1094,
+                291,
+                1156,
+                304
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "27",
+            "text": "Foundry Agent Service",
+            "bbox": [
+                1621,
+                280,
+                1705,
+                306
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "28",
+            "text": "Monitor",
+            "bbox": [
+                1785,
+                297,
+                1829,
+                309
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "29",
+            "text": "Internet",
+            "bbox": [
+                133,
+                339,
+                180,
+                350
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "30",
+            "text": "Tags",
+            "bbox": [
+                746,
+                341,
+                774,
+                354
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "31",
+            "text": "Ingress VNET",
+            "bbox": [
+                327,
+                385,
+                436,
+                403
+            ],
+            "parent_id": "2"
+        },
+        {
+            "id": "32",
+            "text": "Al Services Virtual Network",
+            "bbox": [
+                664,
+                368,
+                890,
+                386
+            ],
+            "parent_id": "3"
+        },
+        {
+            "id": "33",
+            "text": "Application Insights",
+            "bbox": [
+                1775,
+                374,
+                1839,
+                401
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "34",
+            "text": "Application Gateway Subnet",
+            "bbox": [
+                343,
+                419,
+                499,
+                434
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "35",
+            "text": "Jump box Subnet",
+            "bbox": [
+                686,
+                412,
+                782,
+                426
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "36",
+            "text": "Private Endpoints Subnet",
+            "bbox": [
+                1059,
+                410,
+                1199,
+                424
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "37",
+            "text": "API Management Subnet",
+            "bbox": [
+                1456,
+                411,
+                1552,
+                437
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "38",
+            "text": "Al Foundry Agent Subhet",
+            "bbox": [
+                1613,
+                410,
+                1710,
+                436
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "39",
+            "text": "Application Gateway",
+            "bbox": [
+                375,
+                495,
+                439,
+                523
+            ],
+            "parent_id": "31"
+        },
+        {
+            "id": "40",
+            "text": "Jump Box VM",
+            "bbox": [
+                697,
+                494,
+                774,
+                507
+            ],
+            "parent_id": "35"
+        },
+        {
+            "id": "41",
+            "text": "Private Endpoint",
+            "bbox": [
+                932,
+                486,
+                982,
+                513
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "42",
+            "text": "Private Endpoint",
+            "bbox": [
+                1019,
+                487,
+                1070,
+                514
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "43",
+            "text": "Private Endpoint",
+            "bbox": [
+                1096,
+                488,
+                1146,
+                515
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "44",
+            "text": "Private Endpoint",
+            "bbox": [
+                1179,
+                488,
+                1229,
+                515
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "45",
+            "text": "Private Endpoint",
+            "bbox": [
+                1279,
+                488,
+                1329,
+                515
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "46",
+            "text": "Private Endpoint",
+            "bbox": [
+                1352,
+                487,
+                1402,
+                514
+            ],
+            "parent_id": "36"
+        },
+        {
+            "id": "47",
+            "text": "Network Watcher",
+            "bbox": [
+                1780,
+                471,
+                1828,
+                498
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "48",
+            "text": "WAF",
+            "bbox": [
+                469,
+                502,
+                496,
+                514
+            ],
+            "parent_id": "31"
+        },
+        {
+            "id": "49",
+            "text": "API Management",
+            "bbox": [
+                1459,
+                503,
+                1555,
+                516
+            ],
+            "parent_id": "37"
+        },
+        {
+            "id": "50",
+            "text": "On-premises network",
+            "bbox": [
+                115,
+                544,
+                222,
+                583
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "51",
+            "text": "Azure DDOS",
+            "bbox": [
+                346,
+                531,
+                445,
+                549
+            ],
+            "parent_id": "31"
+        },
+        {
+            "id": "52",
+            "text": "Container App Environment Subnet",
+            "bbox": [
+                1450,
+                560,
+                1564,
+                587
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "53",
+            "text": "Build Agent Subnet",
+            "bbox": [
+                1612,
+                560,
+                1718,
+                574
+            ],
+            "parent_id": "32"
+        },
+        {
+            "id": "54",
+            "text": "Redis Cache",
+            "bbox": [
+                1760,
+                581,
+                1860,
+                598
+            ],
+            "parent_id": "3"
+        },
+        {
+            "id": "55",
+            "text": "Corporate Subscription",
+            "bbox": [
+                301,
+                603,
+                491,
+                623
+            ],
+            "parent_id": "1"
+        },
+        {
+            "id": "56",
+            "text": "Private Endpoint",
+            "bbox": [
+                852,
+                620,
+                902,
+                647
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "57",
+            "text": "Private Endpoint",
+            "bbox": [
+                923,
+                621,
+                973,
+                648
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "58",
+            "text": "Private Endpoint",
+            "bbox": [
+                998,
+                618,
+                1049,
+                645
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "59",
+            "text": "Private Endpoint",
+            "bbox": [
+                1079,
+                619,
+                1130,
+                646
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "60",
+            "text": "Private Endpoint",
+            "bbox": [
+                1166,
+                619,
+                1216,
+                646
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "61",
+            "text": "Private Endpoint",
+            "bbox": [
+                1253,
+                620,
+                1303,
+                647
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "62",
+            "text": "Private Endpoint",
+            "bbox": [
+                1349,
+                619,
+                1399,
+                646
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "63",
+            "text": "Corporate VNET",
+            "bbox": [
+                318,
+                642,
+                452,
+                662
+            ],
+            "parent_id": "55"
+        },
+        {
+            "id": "64",
+            "text": "Build Agent VM",
+            "bbox": [
+                1626,
+                641,
+                1712,
+                654
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "65",
+            "text": "Stack",
+            "bbox": [
+                1791,
+                660,
+                1827,
+                673
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "66",
+            "text": "Azure DNS Private Resolver",
+            "bbox": [
+                387,
+                676,
+                524,
+                716
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "67",
+            "text": "VPN/ExpressRoute Gateways",
+            "bbox": [
+                376,
+                746,
+                534,
+                787
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "68",
+            "text": "Enterprise and public knowledge sources",
+            "bbox": [
+                684,
+                734,
+                858,
+                775
+            ],
+            "parent_id": "3"
+        },
+        {
+            "id": "69",
+            "text": "GenAl app microservices",
+            "bbox": [
+                1585,
+                736,
+                1787,
+                756
+            ],
+            "parent_id": "3"
+        },
+        {
+            "id": "70",
+            "text": "GenAl app dependencies",
+            "bbox": [
+                1017,
+                764,
+                1219,
+                784
+            ],
+            "parent_id": "69"
+        },
+        {
+            "id": "71",
+            "text": "Managed Identities",
+            "bbox": [
+                1387,
+                769,
+                1492,
+                782
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "72",
+            "text": "ExpressRoute",
+            "bbox": [
+                111,
+                794,
+                225,
+                812
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "73",
+            "text": "Container App Environment",
+            "bbox": [
+                1432,
+                799,
+                1660,
+                819
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "74",
+            "text": "Azure Firewall",
+            "bbox": [
+                395,
+                858,
+                514,
+                876
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "75",
+            "text": "Grounding with Bing",
+            "bbox": [
+                691,
+                869,
+                750,
+                896
+            ],
+            "parent_id": "68"
+        },
+        {
+            "id": "76",
+            "text": "Al Search",
+            "bbox": [
+                779,
+                871,
+                835,
+                884
+            ],
+            "parent_id": "68"
+        },
+        {
+            "id": "77",
+            "text": "Cosmos DB",
+            "bbox": [
+                917,
+                868,
+                980,
+                881
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "78",
+            "text": "Key Vault",
+            "bbox": [
+                996,
+                869,
+                1051,
+                882
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "79",
+            "text": "storage Account",
+            "bbox": [
+                1079,
+                862,
+                1127,
+                888
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "80",
+            "text": "Container Registry",
+            "bbox": [
+                1161,
+                863,
+                1217,
+                891
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "81",
+            "text": "App Configuration",
+            "bbox": [
+                1233,
+                862,
+                1308,
+                888
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "82",
+            "text": "dapr",
+            "bbox": [
+                1399,
+                845,
+                1441,
+                869
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "83",
+            "text": "Frontend Orchestrator",
+            "bbox": [
+                1442,
+                877,
+                1573,
+                892
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "84",
+            "text": "SK",
+            "bbox": [
+                1607,
+                876,
+                1624,
+                888
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "85",
+            "text": "MCP",
+            "bbox": [
+                1661,
+                872,
+                1686,
+                883
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "86",
+            "text": "Ingestion",
+            "bbox": [
+                1718,
+                869,
+                1770,
+                882
+            ],
+            "parent_id": "70"
+        },
+        {
+            "id": "87",
+            "text": "Egress Traffic",
+            "bbox": [
+                87,
+                902,
+                202,
+                921
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "88",
+            "text": "Azure Bastion",
+            "bbox": [
+                399,
+                929,
+                515,
+                948
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "89",
+            "text": "Security and Governance",
+            "bbox": [
+                766,
+                928,
+                972,
+                947
+            ],
+            "parent_id": "3"
+        },
+        {
+            "id": "90",
+            "text": "Ingress Traffic",
+            "bbox": [
+                87,
+                953,
+                207,
+                972
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "91",
+            "text": "Azure DDOS",
+            "bbox": [
+                340,
+                1008,
+                439,
+                1027
+            ],
+            "parent_id": "63"
+        },
+        {
+            "id": "92",
+            "text": "DNS",
+            "bbox": [
+                548,
+                1015,
+                576,
+                1028
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "93",
+            "text": "Subscription policy assignments",
+            "bbox": [
+                673,
+                1002,
+                778,
+                1030
+            ],
+            "parent_id": "89"
+        },
+        {
+            "id": "94",
+            "text": "Defender for Cloud",
+            "bbox": [
+                792,
+                999,
+                844,
+                1026
+            ],
+            "parent_id": "89"
+        },
+        {
+            "id": "95",
+            "text": "Azure DevOps",
+            "bbox": [
+                1299,
+                984,
+                1362,
+                1020
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "96",
+            "text": "Azure AD P2",
+            "bbox": [
+                1418,
+                981,
+                1497,
+                1017
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "97",
+            "text": "Prometheus",
+            "bbox": [
+                1539,
+                992,
+                1639,
+                1010
+            ],
+            "parent_id": null
+        },
+        {
+            "id": "98",
+            "text": "Entra ID",
+            "bbox": [
+                900,
+                1012,
+                945,
+                1025
+            ],
+            "parent_id": "89"
+        },
+        {
+            "id": "99",
+            "text": "Purview",
+            "bbox": [
+                980,
+                1014,
+                1026,
+                1027
+            ],
+            "parent_id": "89"
+        }
+    ]
+}
