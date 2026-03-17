@@ -1,0 +1,398 @@
+[
+    {
+        "source_id": "7",
+        "target_id": "19",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [7] (Proxy Firewall) to [19] (Azure Firewall) is a solid orange line, indicating a one-way flow of traffic or data."
+    },
+    {
+        "source_id": "9",
+        "target_id": "17",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data flow from [9] (Diagnostics Settings) to [17] (Log Analytics Workspace)."
+    },
+    {
+        "source_id": "10",
+        "target_id": "18",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating a one-way flow from [10] (Role assignments) to [18] (Workload policy assignments)."
+    },
+    {
+        "source_id": "11",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line is solid, indicating a direct connection, and it flows from [11] (Managed Identities) to [36] (Private Endpoints Subnet)."
+    },
+    {
+        "source_id": "14",
+        "target_id": "29",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid orange arrow, indicating a one-way flow of data or communication from [14] (User) to [29] (Internet)."
+    },
+    {
+        "source_id": "15",
+        "target_id": "271",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with a single arrowhead, indicating a one-way flow of data or interaction from [15] (AI Foundry Project) to [271] (Foundry Agent Service)."
+    },
+    {
+        "source_id": "17",
+        "target_id": "33",
+        "flow": "One-way",
+        "style_and_meaning": "The line from [17] (Log Analytics Workspace) to [33] (Application Insights) has a single arrowhead, indicating a one-way flow of data or interaction."
+    },
+    {
+        "source_id": "18",
+        "target_id": "10",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [18] (Workload policy assignments) to [10] (Role assignments) is a solid line with an arrowhead pointing towards [10], indicating a one-way flow of information or dependency."
+    },
+    {
+        "source_id": "20",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [20] (AI Services Endpoints) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This suggests that the AI Services Endpoints communicate data or requests to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "21",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [21] (Storage Account) to [41] (Private Endpoint) has a single arrowhead, indicating a one-way flow. The connection represents a private endpoint for secure access to the storage account."
+    },
+    {
+        "source_id": "22",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [22] (AI Search) to [41] (Private Endpoint) is a solid line with a single arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "23",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [23] (Key Vault) to [41] (Private Endpoint) is solid, indicating a direct connection. The arrowhead shows a one-way flow from [23] to [41], signifying that Key Vault communicates with the Private Endpoint."
+    },
+    {
+        "source_id": "24",
+        "target_id": "27",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [24] (Foundry Models) to [27] (Foundry Agent Service) is a solid line with an arrowhead, indicating a one-way flow of data or interaction."
+    },
+    {
+        "source_id": "25",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead, indicating a one-way connection to the Private Endpoint icon."
+    },
+    {
+        "source_id": "26",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [26] (Cosmos DB) to [36] (Private Endpoint) is solid, indicating a direct connection. The arrowhead on the line indicates a one-way flow from [26] to [36]."
+    },
+    {
+        "source_id": "27",
+        "target_id": "38",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with arrowhead indicating data or service flow from [27] (Foundry Agent Service) to [38] (AI Foundry Agent Subnet)."
+    },
+    {
+        "source_id": "28",
+        "target_id": "17",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [28] (Monitor) to [17] (Log Analytics Workspace) is a solid line with an arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "30",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead, indicating a one-way connection from [30] (Tags) to [36] (Private Endpoints Subnet)."
+    },
+    {
+        "source_id": "33",
+        "target_id": "17",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [33] (Application Insights) to [17] (Log Analytics Workspace) is a one-way arrow, indicating data flow or logging integration from Application Insights to Log Analytics Workspace."
+    },
+    {
+        "source_id": "34",
+        "target_id": "39",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with arrowhead indicating traffic flow from [34] (Application Gateway Subnet) to [39] (Application Gateway)."
+    },
+    {
+        "source_id": "40",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid line with an arrowhead pointing towards the Private Endpoint icon, indicating a one-way flow of communication or data from the Jump Box VM [40] to the Private Endpoint [36]."
+    },
+    {
+        "source_id": "41",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data or communication flow from [41] (Private Endpoint) to [36] (Private Endpoints Subnet)."
+    },
+    {
+        "source_id": "42",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [42] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "43",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [43] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "44",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [44] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "45",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [45] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. The connection represents a network relationship between the Private Endpoint and the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "46",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [46] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead pointing towards [36], indicating a one-way flow."
+    },
+    {
+        "source_id": "47",
+        "target_id": "33",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with arrowhead indicating data or monitoring flow from [47] (Network Watcher) to [33] (Application Insights)."
+    },
+    {
+        "source_id": "49",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "The line is solid, indicating a direct connection, and the arrowhead shows a one-way flow from [49] (API Management) to [41] (Private Endpoint)."
+    },
+    {
+        "source_id": "50",
+        "target_id": "72",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data flow from the On-premises network [50] to ExpressRoute [72]."
+    },
+    {
+        "source_id": "51",
+        "target_id": "39",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [51] (Azure DDOS) to [39] (Application Gateway) has an arrowhead pointing towards [39], indicating a one-way flow of traffic or interaction."
+    },
+    {
+        "source_id": "54",
+        "target_id": "651",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid arrow, indicating a one-way flow of data or communication from the Redis Cache [54] to the Private Endpoint [651]."
+    },
+    {
+        "source_id": "56",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [56] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead pointing towards [36], indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "57",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data or communication flow from [57] (Private Endpoint) to [36] (Private Endpoints Subnet)."
+    },
+    {
+        "source_id": "58",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [58] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "59",
+        "target_id": "54",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [59] (Private Endpoint) to [54] (Redis Cache) has a single arrowhead, indicating a one-way flow. This likely represents a data or service request flow from the Private Endpoint to the Redis Cache."
+    },
+    {
+        "source_id": "60",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting to [60] (Private Endpoint) has a single arrowhead pointing towards [60], indicating a one-way flow. The line connects to the Private Endpoint icon, representing a private connection within the network."
+    },
+    {
+        "source_id": "61",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [61] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+    },
+    {
+        "source_id": "62",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [62] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "64",
+        "target_id": "54",
+        "flow": "One-way",
+        "style_and_meaning": "The line is solid, indicating a direct connection, and the arrowhead shows a one-way flow from [64] (Build Agent VM) to [54] (Redis Cache)."
+    },
+    {
+        "source_id": "65",
+        "target_id": "Private Endpoint",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line indicating a direct connection or dependency."
+    },
+    {
+        "source_id": "66",
+        "target_id": "67",
+        "flow": "Bi-directional",
+        "style_and_meaning": "Solid line indicating a direct connection or communication between Azure DNS Private Resolver and VPN/ExpressRoute Gateways."
+    },
+    {
+        "source_id": "71",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [71] (Managed Identities) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This suggests that Managed Identities interact with the Private Endpoints Subnet in a unidirectional manner."
+    },
+    {
+        "source_id": "74",
+        "target_id": "89",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid arrow, indicating a one-way flow from Azure Firewall [74] to Azure Bastion [89]."
+    },
+    {
+        "source_id": "75",
+        "target_id": "76",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid arrow, indicating a one-way flow of data or interaction from [75] (Grounding with Bing) to [76] (AI Search)."
+    },
+    {
+        "source_id": "76",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [76] (AI Search) to [41] (Private Endpoint) has a single arrowhead, indicating a one-way flow. This represents a connection from AI Search to the Private Endpoint."
+    },
+    {
+        "source_id": "77",
+        "target_id": "781",
+        "flow": "One-way",
+        "style_and_meaning": "The line is solid, indicating a direct connection. The arrowhead shows a one-way flow from [77] (Cosmos DB) to [781] (Key Vault)."
+    },
+    {
+        "source_id": "78",
+        "target_id": "41",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line indicating a direct connection to a Private Endpoint."
+    },
+    {
+        "source_id": "79",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "The line connects the [79] Storage Account to the [36] Private Endpoint icon, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "80",
+        "target_id": "52",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [80] (Container Registry) to [52] (Container App Environment Subnet) has a single arrowhead, indicating a one-way flow."
+    },
+    {
+        "source_id": "81",
+        "target_id": "52",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [81] (App Configuration) to [52] (Container App Environment Subnet) has a single arrowhead, indicating a one-way flow. This suggests that App Configuration sends data or configuration to the Container App Environment Subnet."
+    },
+    {
+        "source_id": "82",
+        "target_id": "841",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data or process flow."
+    },
+    {
+        "source_id": "83",
+        "target_id": "851",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [83] (Frontend) to [851] (Orchestrator) has a single arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "84",
+        "target_id": "851",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating data or process flow from [84] (Orchestrator) to [851] (Dapr)."
+    },
+    {
+        "source_id": "85",
+        "target_id": "871",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid arrow, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "86",
+        "target_id": "49",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [86] (MCP) to [49] (API Management) is a solid line with an arrowhead, indicating a one-way flow of communication or data."
+    },
+    {
+        "source_id": "87",
+        "target_id": "841",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [87] (Ingestion) to [841] (Orchestrator) has a single arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "88",
+        "target_id": "71",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [88] (Egress Traffic) to [71] (Proxy Firewall) has a single arrowhead, indicating one-way traffic flow."
+    },
+    {
+        "source_id": "89",
+        "target_id": "Private Endpoint",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [89] (Azure Bastion) to the Private Endpoint icon is a solid line with an arrowhead, indicating a one-way flow of communication or data."
+    },
+    {
+        "source_id": "91",
+        "target_id": "31",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating traffic flow from [91] (Ingress Traffic) to [31] (Ingress VNET)."
+    },
+    {
+        "source_id": "92",
+        "target_id": "981",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead, indicating a one-way flow of traffic or data."
+    },
+    {
+        "source_id": "93",
+        "target_id": "911",
+        "flow": "One-way",
+        "style_and_meaning": "Solid line with an arrowhead indicating a one-way flow from [93] (Subscription policy assignments) to [911] (Ingress Traffic)."
+    },
+    {
+        "source_id": "95",
+        "target_id": "96",
+        "flow": "One-way",
+        "style_and_meaning": "The line is a solid arrow, indicating a one-way flow from Azure DevOps [95] to Azure AD P2 [96]."
+    },
+    {
+        "source_id": "96",
+        "target_id": "911",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [96] (Azure AD P2) to [911] (Ingress Traffic) is a solid line with an arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "97",
+        "target_id": "54",
+        "flow": "One-way",
+        "style_and_meaning": "The line connecting [97] (Prometheus) to [54] (Redis Cache) has a single arrowhead, indicating a one-way flow of data or communication."
+    },
+    {
+        "source_id": "98",
+        "target_id": "66",
+        "flow": "Bi-directional",
+        "style_and_meaning": "The line connecting [98] (DNS) to [66] (Azure DNS Private Resolver) is bi-directional, indicating a two-way communication or interaction between these components."
+    }
+]

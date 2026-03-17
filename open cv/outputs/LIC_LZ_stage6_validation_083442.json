@@ -1,0 +1,56 @@
+{
+    "correct_elements": [
+        "The hierarchical structure of the Azure AI Landing Zone, including DMZ Subscription, AI Landing Zone Prod Subscription, and Corporate Subscription, is accurately represented.",
+        "The DMZ Subscription contains Egress VNET, Inspection VNET, and Ingress VNET with correct components like Proxy Firewall, Azure Firewall, Application Gateway, WAF, and Azure DDoS.",
+        "The AI Landing Zone Prod Subscription includes AI Foundry Agent Service dependencies (Storage Account, AI Search, Cosmos DB, Key Vault) and private endpoints for secure communication.",
+        "The GenAI app microservices and dependencies (Container Registry, App Configuration) are correctly mapped to the Container App Environment.",
+        "The Corporate Subscription integrates with the Azure AI Landing Zone via Corporate VNET, Azure DNS Private Resolver, VPN/ExpressRoute Gateways, and Azure Bastion.",
+        "Security and governance tools like Entra ID, Purview, and Defender for Cloud are correctly placed.",
+        "External systems and on-premises networks connect to the Azure AI Landing Zone via ExpressRoute and VPN/ExpressRoute Gateways.",
+        "The flow from Application Gateway Subnet to Application Gateway is correctly represented.",
+        "The flow from Azure Firewall to Ingress VNET is correctly represented.",
+        "The flow from Diagnostics Settings to Log Analytics Workspace is correctly represented."
+    ],
+    "errors": [
+        {
+            "issue": "The JSON graph incorrectly states that the flow from Proxy Firewall to Azure Firewall is a solid orange line, but the diagram shows a solid black line.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Update the JSON graph to reflect the correct line color as black for the flow from Proxy Firewall to Azure Firewall."
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'Managed Identities' to 'Private Endpoints Subnet,' but this flow is not depicted in the diagram.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Remove the flow from 'Managed Identities' to 'Private Endpoints Subnet' in the JSON graph."
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'Egress Traffic' to 'Managed Identities,' but this flow is not depicted in the diagram.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Remove the flow from 'Egress Traffic' to 'Managed Identities' in the JSON graph."
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'Private Endpoint' to 'Redis Cache,' but this flow is not depicted in the diagram.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Remove the flow from 'Private Endpoint' to 'Redis Cache' in the JSON graph."
+        },
+        {
+            "issue": "The JSON graph mentions a bi-directional flow between 'Azure DNS Private Resolver' and 'VPN/ExpressRoute Gateways,' but the diagram shows a one-way flow.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Update the JSON graph to reflect a one-way flow from 'Azure DNS Private Resolver' to 'VPN/ExpressRoute Gateways.'"
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'Grounding with Bing' to 'AI Search,' but this flow is not depicted in the diagram.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Remove the flow from 'Grounding with Bing' to 'AI Search' in the JSON graph."
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'Azure Firewall' to 'Azure Bastion,' but this flow is not depicted in the diagram.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Remove the flow from 'Azure Firewall' to 'Azure Bastion' in the JSON graph."
+        },
+        {
+            "issue": "The JSON graph mentions a flow from 'User' to 'Internet' as a solid orange arrow, but the diagram shows a black arrow.",
+            "stage_to_fix": "Stage 2",
+            "suggested_correction": "Update the JSON graph to reflect the correct line color as black for the flow from 'User' to 'Internet.'"
+        }
+    ]
+}

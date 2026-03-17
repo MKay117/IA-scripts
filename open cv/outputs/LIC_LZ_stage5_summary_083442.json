@@ -1,0 +1,12 @@
+{
+    "summary": [
+        "The architecture is built around an Azure AI Landing Zone, which includes multiple subscriptions and virtual networks for secure and scalable AI workloads.",
+        "The DMZ Subscription contains Egress, Inspection, and Ingress VNETs with components like Proxy Firewall, Azure Firewall, Application Gateway, WAF, and Azure DDoS for traffic management and security.",
+        "The AI Landing Zone Prod Subscription hosts the AI App Resource Group, which includes AI Foundry Agent Services, diagnostics, monitoring, and governance tools like Log Analytics, Application Insights, and Defender for Cloud.",
+        "AI Foundry Agent Services rely on dependencies such as Storage Account, Cosmos DB, Key Vault, and AI Search, with private endpoints ensuring secure communication.",
+        "The architecture supports GenAI applications with microservices, including Frontend, Orchestrator, and Ingestion, hosted in a Container App Environment with dependencies like Container Registry and App Configuration.",
+        "Corporate Subscription integrates with the Azure AI Landing Zone via a Corporate VNET, Azure DNS Private Resolver, VPN/ExpressRoute Gateways, and Azure Bastion for secure connectivity.",
+        "Security and governance are enforced through tools like Entra ID, Purview, and subscription policy assignments.",
+        "External systems and on-premises networks connect to the Azure AI Landing Zone via ExpressRoute and VPN/ExpressRoute Gateways for secure and reliable communication."
+    ]
+}

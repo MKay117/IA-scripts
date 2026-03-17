@@ -1,0 +1,116 @@
+[
+    {
+        "source_id": "1",
+        "target_id": "3",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Azure subscription linkage"
+    },
+    {
+        "source_id": "4",
+        "target_id": "29",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - external systems to internet"
+    },
+    {
+        "source_id": "29",
+        "target_id": "19",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - internet to Azure Firewall"
+    },
+    {
+        "source_id": "19",
+        "target_id": "31",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Azure Firewall to Ingress VNET"
+    },
+    {
+        "source_id": "31",
+        "target_id": "39",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Ingress VNET to Application Gateway"
+    },
+    {
+        "source_id": "39",
+        "target_id": "48",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Application Gateway to WAF"
+    },
+    {
+        "source_id": "55",
+        "target_id": "63",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Corporate Subscription to Corporate VNET"
+    },
+    {
+        "source_id": "63",
+        "target_id": "67",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Corporate VNET to VPN/ExpressRoute Gateways"
+    },
+    {
+        "source_id": "67",
+        "target_id": "72",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - VPN/ExpressRoute Gateways to ExpressRoute"
+    },
+    {
+        "source_id": "32",
+        "target_id": "36",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - AI Services Virtual Network to Private Endpoints Subnet"
+    },
+    {
+        "source_id": "32",
+        "target_id": "37",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - AI Services Virtual Network to API Management Subnet"
+    },
+    {
+        "source_id": "32",
+        "target_id": "38",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - AI Services Virtual Network to AI Foundry Agent Subnet"
+    },
+    {
+        "source_id": "32",
+        "target_id": "52",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - AI Services Virtual Network to Container App Environment Subnet"
+    },
+    {
+        "source_id": "32",
+        "target_id": "53",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - AI Services Virtual Network to Build Agent Subnet"
+    },
+    {
+        "source_id": "68",
+        "target_id": "70",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Enterprise and public knowledge sources to GenAI app dependencies"
+    },
+    {
+        "source_id": "70",
+        "target_id": "73",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - GenAI app dependencies to Container App Environment"
+    },
+    {
+        "source_id": "90",
+        "target_id": "94",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Security and Governance to Defender for Cloud"
+    },
+    {
+        "source_id": "90",
+        "target_id": "99",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Security and Governance to Entra ID"
+    },
+    {
+        "source_id": "90",
+        "target_id": "100",
+        "flow": "One-way",
+        "style_and_meaning": "solid line - Security and Governance to Purview"
+    }
+]

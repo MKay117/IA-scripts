@@ -1,0 +1,649 @@
+{
+    "architectural_hierarchy": [
+        {
+            "name": "Azure Al Landing Zone",
+            "type": "Container/Boundary",
+            "children": [
+                {
+                    "name": "DMZ Subscription",
+                    "type": "Container/Boundary",
+                    "children": [
+                        {
+                            "name": "Egress VNET",
+                            "type": "Container/Boundary",
+                            "children": [
+                                "Proxy Firewall"
+                            ]
+                        },
+                        {
+                            "name": "Inspection VNET",
+                            "type": "Container/Boundary",
+                            "children": [
+                                "Azure Firewall"
+                            ]
+                        },
+                        {
+                            "name": "Ingress VNET",
+                            "type": "Container/Boundary",
+                            "children": [
+                                "Application Gateway Subnet",
+                                "Application Gateway",
+                                "WAF",
+                                "Azure DDOS"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Al Landing Zone Prod Subscription",
+                    "type": "Container/Boundary",
+                    "children": [
+                        {
+                            "name": "Al App Resource Group",
+                            "type": "Container/Boundary",
+                            "children": [
+                                {
+                                    "name": "Al Foundry Agent Service standard setup",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        {
+                                            "name": "Al Foundry Agent Service dependencies",
+                                            "type": "Container/Boundary",
+                                            "children": [
+                                                "Storage Account",
+                                                "Al Search",
+                                                "Key Vault",
+                                                "Cosmos DB"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Azure Al Foundry Services",
+                                            "type": "Container/Boundary",
+                                            "children": [
+                                                "Al Foundry Project",
+                                                "Al Services endpoints",
+                                                "Foundry Models",
+                                                "Connections",
+                                                "Foundry Agent Service"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Diagnostics Settings",
+                                "Managed Identities",
+                                "Log Analytics Workspace",
+                                "Monitor",
+                                "Application Insights",
+                                "Network Watcher",
+                                "Redis Cache",
+                                "Stack",
+                                {
+                                    "name": "Enterprise and public knowledge sources",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "Grounding with Bing",
+                                        "Al Search"
+                                    ]
+                                },
+                                {
+                                    "name": "GenAl app microservices",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        {
+                                            "name": "GenAl app dependencies",
+                                            "type": "Container/Boundary",
+                                            "children": [
+                                                "Cosmos DB",
+                                                "Key Vault",
+                                                "Storage Account",
+                                                "Container Registry",
+                                                "App Configuration"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Managed Identities",
+                                {
+                                    "name": "Container App Environment",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "dapr",
+                                        "Frontend",
+                                        "Orchestrator",
+                                        "SK",
+                                        "MCP",
+                                        "Ingestion"
+                                    ]
+                                },
+                                {
+                                    "name": "Security and Governance",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "Subscription policy assignments",
+                                        "Defender for Cloud",
+                                        "Entra ID",
+                                        "Purview"
+                                    ]
+                                },
+                                "Azure DevOps",
+                                "Azure AD P2",
+                                "Prometheus"
+                            ]
+                        },
+                        "Role assignments",
+                        "Workload policy assignments",
+                        "Tags",
+                        {
+                            "name": "Al Services Virtual Network",
+                            "type": "Container/Boundary",
+                            "children": [
+                                {
+                                    "name": "Jump box Subnet",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "Jump Box VM"
+                                    ]
+                                },
+                                {
+                                    "name": "Private Endpoints Subnet",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint",
+                                        "Private Endpoint"
+                                    ]
+                                },
+                                {
+                                    "name": "API Management Subnet",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "API Management"
+                                    ]
+                                },
+                                "AI Foundry Agent Subhet",
+                                "Container App Environment Subnet",
+                                {
+                                    "name": "Build Agent Subnet",
+                                    "type": "Container/Boundary",
+                                    "children": [
+                                        "Build Agent VM"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Ext Systems Payment GW Moengage UIDAI NSDL NPCHI NSEIT",
+                "User",
+                "Internet",
+                "On-premises network",
+                {
+                    "name": "Corporate Subscription",
+                    "type": "Container/Boundary",
+                    "children": [
+                        {
+                            "name": "Corporate VNET",
+                            "type": "Container/Boundary",
+                            "children": [
+                                "Azure DNS Private Resolver",
+                                "VPN/ExpressRoute Gateways",
+                                "Azure Firewall",
+                                "Azure Bastion",
+                                "Azure DDOS",
+                                "DNS"
+                            ]
+                        }
+                    ]
+                },
+                "ExpressRoute",
+                "Egress Traffic",
+                "Ingress Traffic"
+            ]
+        }
+    ],
+    "external_and_unbound_entities": [],
+    "end_to_end_flows": [
+        {
+            "source": "Azure Al Landing Zone",
+            "target": "Al Landing Zone Prod Subscription",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Azure subscription linkage"
+        },
+        {
+            "source": "Ext Systems Payment GW Moengage UIDAI NSDL NPCHI NSEIT",
+            "target": "Internet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - external systems to internet"
+        },
+        {
+            "source": "Internet",
+            "target": "Azure Firewall",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - internet to Azure Firewall"
+        },
+        {
+            "source": "Azure Firewall",
+            "target": "Ingress VNET",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Azure Firewall to Ingress VNET"
+        },
+        {
+            "source": "Ingress VNET",
+            "target": "Application Gateway",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Ingress VNET to Application Gateway"
+        },
+        {
+            "source": "Application Gateway",
+            "target": "WAF",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Application Gateway to WAF"
+        },
+        {
+            "source": "Corporate Subscription",
+            "target": "Corporate VNET",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Corporate Subscription to Corporate VNET"
+        },
+        {
+            "source": "Corporate VNET",
+            "target": "VPN/ExpressRoute Gateways",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Corporate VNET to VPN/ExpressRoute Gateways"
+        },
+        {
+            "source": "VPN/ExpressRoute Gateways",
+            "target": "ExpressRoute",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - VPN/ExpressRoute Gateways to ExpressRoute"
+        },
+        {
+            "source": "Al Services Virtual Network",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - AI Services Virtual Network to Private Endpoints Subnet"
+        },
+        {
+            "source": "Al Services Virtual Network",
+            "target": "API Management Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - AI Services Virtual Network to API Management Subnet"
+        },
+        {
+            "source": "Al Services Virtual Network",
+            "target": "AI Foundry Agent Subhet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - AI Services Virtual Network to AI Foundry Agent Subnet"
+        },
+        {
+            "source": "Al Services Virtual Network",
+            "target": "Container App Environment Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - AI Services Virtual Network to Container App Environment Subnet"
+        },
+        {
+            "source": "Al Services Virtual Network",
+            "target": "Build Agent Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - AI Services Virtual Network to Build Agent Subnet"
+        },
+        {
+            "source": "Enterprise and public knowledge sources",
+            "target": "GenAl app dependencies",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Enterprise and public knowledge sources to GenAI app dependencies"
+        },
+        {
+            "source": "GenAl app dependencies",
+            "target": "Container App Environment",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - GenAI app dependencies to Container App Environment"
+        },
+        {
+            "source": "Security and Governance",
+            "target": "Defender for Cloud",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Security and Governance to Defender for Cloud"
+        },
+        {
+            "source": "Security and Governance",
+            "target": "Entra ID",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Security and Governance to Entra ID"
+        },
+        {
+            "source": "Security and Governance",
+            "target": "Purview",
+            "flow": "One-way",
+            "style_and_meaning": "solid line - Security and Governance to Purview"
+        },
+        {
+            "source": "Proxy Firewall",
+            "target": "Azure Firewall",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [7] (Proxy Firewall) to [19] (Azure Firewall) is a solid orange line, indicating a one-way flow of traffic or data."
+        },
+        {
+            "source": "Diagnostics Settings",
+            "target": "Log Analytics Workspace",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating data flow from [9] (Diagnostics Settings) to [17] (Log Analytics Workspace)."
+        },
+        {
+            "source": "Role assignments",
+            "target": "Workload policy assignments",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating a one-way flow from [10] (Role assignments) to [18] (Workload policy assignments)."
+        },
+        {
+            "source": "Managed Identities",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line is solid, indicating a direct connection, and it flows from [11] (Managed Identities) to [36] (Private Endpoints Subnet)."
+        },
+        {
+            "source": "User",
+            "target": "Internet",
+            "flow": "One-way",
+            "style_and_meaning": "The line is a solid orange arrow, indicating a one-way flow of data or communication from [14] (User) to [29] (Internet)."
+        },
+        {
+            "source": "Log Analytics Workspace",
+            "target": "Application Insights",
+            "flow": "One-way",
+            "style_and_meaning": "The line from [17] (Log Analytics Workspace) to [33] (Application Insights) has a single arrowhead, indicating a one-way flow of data or interaction."
+        },
+        {
+            "source": "Workload policy assignments",
+            "target": "Role assignments",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [18] (Workload policy assignments) to [10] (Role assignments) is a solid line with an arrowhead pointing towards [10], indicating a one-way flow of information or dependency."
+        },
+        {
+            "source": "Al Services endpoints",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [20] (AI Services Endpoints) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This suggests that the AI Services Endpoints communicate data or requests to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Storage Account",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [21] (Storage Account) to [41] (Private Endpoint) has a single arrowhead, indicating a one-way flow. The connection represents a private endpoint for secure access to the storage account."
+        },
+        {
+            "source": "Al Search",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [22] (AI Search) to [41] (Private Endpoint) is a solid line with a single arrowhead, indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "Key Vault",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [23] (Key Vault) to [41] (Private Endpoint) is solid, indicating a direct connection. The arrowhead shows a one-way flow from [23] to [41], signifying that Key Vault communicates with the Private Endpoint."
+        },
+        {
+            "source": "Foundry Models",
+            "target": "Foundry Agent Service",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [24] (Foundry Models) to [27] (Foundry Agent Service) is a solid line with an arrowhead, indicating a one-way flow of data or interaction."
+        },
+        {
+            "source": "Connections",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead, indicating a one-way connection to the Private Endpoint icon."
+        },
+        {
+            "source": "Cosmos DB",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [26] (Cosmos DB) to [36] (Private Endpoint) is solid, indicating a direct connection. The arrowhead on the line indicates a one-way flow from [26] to [36]."
+        },
+        {
+            "source": "Foundry Agent Service",
+            "target": "AI Foundry Agent Subhet",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with arrowhead indicating data or service flow from [27] (Foundry Agent Service) to [38] (AI Foundry Agent Subnet)."
+        },
+        {
+            "source": "Monitor",
+            "target": "Log Analytics Workspace",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [28] (Monitor) to [17] (Log Analytics Workspace) is a solid line with an arrowhead, indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "Tags",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead, indicating a one-way connection from [30] (Tags) to [36] (Private Endpoints Subnet)."
+        },
+        {
+            "source": "Application Insights",
+            "target": "Log Analytics Workspace",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [33] (Application Insights) to [17] (Log Analytics Workspace) is a one-way arrow, indicating data flow or logging integration from Application Insights to Log Analytics Workspace."
+        },
+        {
+            "source": "Application Gateway Subnet",
+            "target": "Application Gateway",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with arrowhead indicating traffic flow from [34] (Application Gateway Subnet) to [39] (Application Gateway)."
+        },
+        {
+            "source": "Jump Box VM",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line is a solid line with an arrowhead pointing towards the Private Endpoint icon, indicating a one-way flow of communication or data from the Jump Box VM [40] to the Private Endpoint [36]."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating data or communication flow from [41] (Private Endpoint) to [36] (Private Endpoints Subnet)."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [42] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [43] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [44] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [45] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. The connection represents a network relationship between the Private Endpoint and the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [46] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead pointing towards [36], indicating a one-way flow."
+        },
+        {
+            "source": "Network Watcher",
+            "target": "Application Insights",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with arrowhead indicating data or monitoring flow from [47] (Network Watcher) to [33] (Application Insights)."
+        },
+        {
+            "source": "API Management",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "The line is solid, indicating a direct connection, and the arrowhead shows a one-way flow from [49] (API Management) to [41] (Private Endpoint)."
+        },
+        {
+            "source": "On-premises network",
+            "target": "ExpressRoute",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating data flow from the On-premises network [50] to ExpressRoute [72]."
+        },
+        {
+            "source": "Azure DDOS",
+            "target": "Application Gateway",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [51] (Azure DDOS) to [39] (Application Gateway) has an arrowhead pointing towards [39], indicating a one-way flow of traffic or interaction."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [56] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead pointing towards [36], indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating data or communication flow from [57] (Private Endpoint) to [36] (Private Endpoints Subnet)."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [58] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Redis Cache",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [59] (Private Endpoint) to [54] (Redis Cache) has a single arrowhead, indicating a one-way flow. This likely represents a data or service request flow from the Private Endpoint to the Redis Cache."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting to [60] (Private Endpoint) has a single arrowhead pointing towards [60], indicating a one-way flow. The line connects to the Private Endpoint icon, representing a private connection within the network."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [61] (Private Endpoint) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This represents a connection from the Private Endpoint to the Private Endpoints Subnet."
+        },
+        {
+            "source": "Private Endpoint",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [62] (Private Endpoint) to [36] (Private Endpoints Subnet) is a solid line with an arrowhead, indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "Build Agent VM",
+            "target": "Redis Cache",
+            "flow": "One-way",
+            "style_and_meaning": "The line is solid, indicating a direct connection, and the arrowhead shows a one-way flow from [64] (Build Agent VM) to [54] (Redis Cache)."
+        },
+        {
+            "source": "Azure DNS Private Resolver",
+            "target": "VPN/ExpressRoute Gateways",
+            "flow": "Bi-directional",
+            "style_and_meaning": "Solid line indicating a direct connection or communication between Azure DNS Private Resolver and VPN/ExpressRoute Gateways."
+        },
+        {
+            "source": "Managed Identities",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [71] (Managed Identities) to [36] (Private Endpoints Subnet) has a single arrowhead, indicating a one-way flow. This suggests that Managed Identities interact with the Private Endpoints Subnet in a unidirectional manner."
+        },
+        {
+            "source": "Azure Firewall",
+            "target": "Azure Bastion",
+            "flow": "One-way",
+            "style_and_meaning": "The line is a solid arrow, indicating a one-way flow from Azure Firewall [74] to Azure Bastion [89]."
+        },
+        {
+            "source": "Grounding with Bing",
+            "target": "Al Search",
+            "flow": "One-way",
+            "style_and_meaning": "The line is a solid arrow, indicating a one-way flow of data or interaction from [75] (Grounding with Bing) to [76] (AI Search)."
+        },
+        {
+            "source": "Al Search",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [76] (AI Search) to [41] (Private Endpoint) has a single arrowhead, indicating a one-way flow. This represents a connection from AI Search to the Private Endpoint."
+        },
+        {
+            "source": "Key Vault",
+            "target": "Private Endpoint",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line indicating a direct connection to a Private Endpoint."
+        },
+        {
+            "source": "Storage Account",
+            "target": "Private Endpoints Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connects the [79] Storage Account to the [36] Private Endpoint icon, indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "Container Registry",
+            "target": "Container App Environment Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [80] (Container Registry) to [52] (Container App Environment Subnet) has a single arrowhead, indicating a one-way flow."
+        },
+        {
+            "source": "App Configuration",
+            "target": "Container App Environment Subnet",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [81] (App Configuration) to [52] (Container App Environment Subnet) has a single arrowhead, indicating a one-way flow. This suggests that App Configuration sends data or configuration to the Container App Environment Subnet."
+        },
+        {
+            "source": "MCP",
+            "target": "API Management",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [86] (MCP) to [49] (API Management) is a solid line with an arrowhead, indicating a one-way flow of communication or data."
+        },
+        {
+            "source": "Egress Traffic",
+            "target": "Managed Identities",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [88] (Egress Traffic) to [71] (Proxy Firewall) has a single arrowhead, indicating one-way traffic flow."
+        },
+        {
+            "source": "Ingress Traffic",
+            "target": "Ingress VNET",
+            "flow": "One-way",
+            "style_and_meaning": "Solid line with an arrowhead indicating traffic flow from [91] (Ingress Traffic) to [31] (Ingress VNET)."
+        },
+        {
+            "source": "Azure DevOps",
+            "target": "Azure AD P2",
+            "flow": "One-way",
+            "style_and_meaning": "The line is a solid arrow, indicating a one-way flow from Azure DevOps [95] to Azure AD P2 [96]."
+        },
+        {
+            "source": "Prometheus",
+            "target": "Redis Cache",
+            "flow": "One-way",
+            "style_and_meaning": "The line connecting [97] (Prometheus) to [54] (Redis Cache) has a single arrowhead, indicating a one-way flow of data or communication."
+        },
+        {
+            "source": "DNS",
+            "target": "Azure DNS Private Resolver",
+            "flow": "Bi-directional",
+            "style_and_meaning": "The line connecting [98] (DNS) to [66] (Azure DNS Private Resolver) is bi-directional, indicating a two-way communication or interaction between these components."
+        }
+    ]
+}
