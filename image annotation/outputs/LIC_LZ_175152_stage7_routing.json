@@ -1,0 +1,301 @@
+{
+    "hierarchy": [
+        {
+            "id": "1",
+            "parent_id": null,
+            "confidence_score": 1.0
+        },
+        {
+            "id": "2",
+            "parent_id": "1",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "3",
+            "parent_id": "1",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "4",
+            "parent_id": "1",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "5",
+            "parent_id": "2",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "7",
+            "parent_id": "5",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "16",
+            "parent_id": "2",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "19",
+            "parent_id": "16",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "31",
+            "parent_id": "2",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "34",
+            "parent_id": "31",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "39",
+            "parent_id": "31",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "48",
+            "parent_id": "31",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "32",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "35",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "36",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "37",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "38",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "52",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "53",
+            "parent_id": "32",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "40",
+            "parent_id": "35",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "41",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "42",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "43",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "44",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "45",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "46",
+            "parent_id": "36",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "49",
+            "parent_id": "37",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "54",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "55",
+            "parent_id": "1",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "63",
+            "parent_id": "55",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "66",
+            "parent_id": "63",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "67",
+            "parent_id": "63",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "74",
+            "parent_id": "63",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "89",
+            "parent_id": "63",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "92",
+            "parent_id": "63",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "68",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "69",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "70",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "73",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "90",
+            "parent_id": "3",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "94",
+            "parent_id": "90",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "99",
+            "parent_id": "90",
+            "confidence_score": 1.0
+        },
+        {
+            "id": "100",
+            "parent_id": "90",
+            "confidence_score": 1.0
+        }
+    ],
+    "macro_connections": [
+        {
+            "source_id": "1",
+            "target_id": "50",
+            "flow": "Bi-directional",
+            "style_and_meaning": "solid line (connectivity)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "1",
+            "target_id": "72",
+            "flow": "Bi-directional",
+            "style_and_meaning": "solid line (ExpressRoute)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "2",
+            "target_id": "3",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (data flow)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "3",
+            "target_id": "55",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (data flow)",
+            "confidence_score": 0.95
+        }
+    ],
+    "micro_connections": [
+        {
+            "source_id": "7",
+            "target_id": "19",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (firewall traffic)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "19",
+            "target_id": "39",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (firewall traffic)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "39",
+            "target_id": "48",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (WAF traffic)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "48",
+            "target_id": "32",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (traffic to VNet)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "66",
+            "target_id": "67",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (DNS resolution)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "67",
+            "target_id": "74",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (firewall traffic)",
+            "confidence_score": 0.95
+        },
+        {
+            "source_id": "74",
+            "target_id": "89",
+            "flow": "One-way",
+            "style_and_meaning": "solid line (traffic to Bastion)",
+            "confidence_score": 0.95
+        }
+    ],
+    "stage_confidence_score": 0.94
+}

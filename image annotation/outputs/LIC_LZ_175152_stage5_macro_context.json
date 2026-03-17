@@ -1,0 +1,23 @@
+{
+    "hosting_type": {
+        "value": "Hybrid",
+        "confidence_score": 0.95
+    },
+    "provider": {
+        "value": "Azure",
+        "confidence_score": 1.0
+    },
+    "access_method": {
+        "value": "Internet, ExpressRoute, Application Gateway with WAF, Azure Firewall",
+        "confidence_score": 0.95
+    },
+    "application_tiering": {
+        "value": "Microservices",
+        "confidence_score": 0.9
+    },
+    "primary_boundary": {
+        "value": "AI Services Virtual Network (VNet)",
+        "confidence_score": 0.95
+    },
+    "stage_confidence_score": 0.94
+}

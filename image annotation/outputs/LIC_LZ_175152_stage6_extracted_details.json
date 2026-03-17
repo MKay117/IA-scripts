@@ -1,0 +1,89 @@
+{
+    "subnets_identified": [
+        {
+            "name": "Egress VNET",
+            "associated_ids": [
+                "5"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Inspection VNET",
+            "associated_ids": [
+                "16"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Ingress VNET",
+            "associated_ids": [
+                "31"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Jump Box Subnet",
+            "associated_ids": [
+                "35"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Private Endpoints Subnet",
+            "associated_ids": [
+                "36"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "API Management Subnet",
+            "associated_ids": [
+                "37"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "AI Foundry Agent Subnet",
+            "associated_ids": [
+                "38"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Container App Environment Subnet",
+            "associated_ids": [
+                "52"
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "name": "Build Agent Subnet",
+            "associated_ids": [
+                "53"
+            ],
+            "confidence_score": 0.95
+        }
+    ],
+    "private_endpoints": [
+        {
+            "name": "Private Endpoint",
+            "associated_ids": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61"
+            ],
+            "confidence_score": 0.95
+        }
+    ],
+    "ports_explicitly_mentioned": [],
+    "stage_confidence_score": 0.95
+}

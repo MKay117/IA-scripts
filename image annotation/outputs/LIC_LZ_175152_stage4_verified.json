@@ -1,0 +1,2104 @@
+{
+    "raw_vlm": {
+        "visual_icons": [
+            {
+                "id": "1",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "2",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "3",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "4",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "5",
+                "visual_entity": "Generic Person Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "6",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "7",
+                "visual_entity": "Firewall Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "8",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "9",
+                "visual_entity": "Diagnostic Settings Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "10",
+                "visual_entity": "Role Assignments Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "11",
+                "visual_entity": "Managed Identities Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "12",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "13",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "14",
+                "visual_entity": "Generic Person Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "15",
+                "visual_entity": "AI Foundry Project Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "16",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "17",
+                "visual_entity": "Log Analytics Workspace Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "18",
+                "visual_entity": "Workload Policy Assignments Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "19",
+                "visual_entity": "Azure Firewall Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "20",
+                "visual_entity": "AI Services Endpoints Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "21",
+                "visual_entity": "Storage Account Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "22",
+                "visual_entity": "AI Search Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "23",
+                "visual_entity": "Key Vault Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "24",
+                "visual_entity": "Foundry Models Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "25",
+                "visual_entity": "Connections Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "26",
+                "visual_entity": "Cosmos DB Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "27",
+                "visual_entity": "Foundry Agent Service Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "28",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "29",
+                "visual_entity": "Internet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "30",
+                "visual_entity": "Tags Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "31",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "32",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "33",
+                "visual_entity": "Application Insights Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "34",
+                "visual_entity": "Application Gateway Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "35",
+                "visual_entity": "Jump Box Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "36",
+                "visual_entity": "Private Endpoints Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "37",
+                "visual_entity": "API Management Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "38",
+                "visual_entity": "AI Foundry Agent Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "39",
+                "visual_entity": "Application Gateway Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "40",
+                "visual_entity": "Jump Box VM Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "41",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "42",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "43",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "44",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "45",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "46",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "47",
+                "visual_entity": "Network Watcher Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "48",
+                "visual_entity": "WAF Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "49",
+                "visual_entity": "API Management Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "50",
+                "visual_entity": "On-Premises Network Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "51",
+                "visual_entity": "Azure DDoS Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "52",
+                "visual_entity": "Container App Environment Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "53",
+                "visual_entity": "Build Agent Subnet Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "54",
+                "visual_entity": "Redis Cache Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "55",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "56",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "57",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "58",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "59",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "60",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "61",
+                "visual_entity": "Private Endpoint Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "63",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "64",
+                "visual_entity": "Build Agent VM Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "65",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "66",
+                "visual_entity": "Azure DNS Private Resolver Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "67",
+                "visual_entity": "VPN/ExpressRoute Gateways Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "68",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "69",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "70",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "71",
+                "visual_entity": "Managed Identities Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "72",
+                "visual_entity": "ExpressRoute Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "73",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "74",
+                "visual_entity": "Azure Firewall Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "75",
+                "visual_entity": "Surrounding with Bing Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "76",
+                "visual_entity": "AI Search Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "77",
+                "visual_entity": "Cosmos DB Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "78",
+                "visual_entity": "Key Vault Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "79",
+                "visual_entity": "Storage Account Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "80",
+                "visual_entity": "Container Registry Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "81",
+                "visual_entity": "App Configuration Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "82",
+                "visual_entity": "Dapr Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "83",
+                "visual_entity": "FrontEnd Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "84",
+                "visual_entity": "Orchestrator Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "85",
+                "visual_entity": "Build Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "86",
+                "visual_entity": "Ingestion Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "87",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "88",
+                "visual_entity": "Egress Traffic Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "89",
+                "visual_entity": "Azure Bastion Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "90",
+                "visual_entity": "Ingress Traffic Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "91",
+                "visual_entity": "Azure DDoS Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "92",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "93",
+                "visual_entity": "Subscription Policy Assignments Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "94",
+                "visual_entity": "Defender for Cloud Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "95",
+                "visual_entity": "Azure DevOps Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "96",
+                "visual_entity": "Azure AD P2 Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "97",
+                "visual_entity": "Prometheus Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "98",
+                "visual_entity": "Text Box",
+                "confidence_score": 1.0
+            },
+            {
+                "id": "99",
+                "visual_entity": "Entrata Icon",
+                "confidence_score": 0.95
+            },
+            {
+                "id": "100",
+                "visual_entity": "Survey Icon",
+                "confidence_score": 0.95
+            }
+        ],
+        "stage_confidence_score": 0.95
+    },
+    "fused_elements": [
+        {
+            "id": "1",
+            "ocr_text": "Azure Al Landing Zone",
+            "visual_icon": "Text Box",
+            "bbox": [
+                31,
+                25,
+                248,
+                47
+            ],
+            "centroid": [
+                139.5,
+                36.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "2",
+            "ocr_text": "DMZ Subscription",
+            "visual_icon": "Text Box",
+            "bbox": [
+                303,
+                40,
+                449,
+                61
+            ],
+            "centroid": [
+                376.0,
+                50.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "3",
+            "ocr_text": "Al Landing Zone Prod Subscription",
+            "visual_icon": "Text Box",
+            "bbox": [
+                623,
+                52,
+                910,
+                73
+            ],
+            "centroid": [
+                766.5,
+                62.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "4",
+            "ocr_text": "Ext Systems Payment GW Moengage UIDAI NSDL NPCHI NSEIT",
+            "visual_icon": "Text Box",
+            "bbox": [
+                32,
+                82,
+                139,
+                230
+            ],
+            "centroid": [
+                85.5,
+                156.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "5",
+            "ocr_text": "Egress VNET",
+            "visual_icon": "Generic Person Icon",
+            "bbox": [
+                331,
+                74,
+                442,
+                93
+            ],
+            "centroid": [
+                386.5,
+                83.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "6",
+            "ocr_text": "Al App Resource Group",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1475,
+                79,
+                1667,
+                99
+            ],
+            "centroid": [
+                1571.0,
+                89.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "7",
+            "ocr_text": "Proxy Firewall",
+            "visual_icon": "Firewall Icon",
+            "bbox": [
+                381,
+                127,
+                499,
+                146
+            ],
+            "centroid": [
+                440.0,
+                136.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "8",
+            "ocr_text": "Al Foundry Agent Service standard setup",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1158,
+                123,
+                1495,
+                145
+            ],
+            "centroid": [
+                1326.5,
+                134.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "9",
+            "ocr_text": "Diagnostics Settings",
+            "visual_icon": "Diagnostic Settings Icon",
+            "bbox": [
+                1772,
+                127,
+                1836,
+                154
+            ],
+            "centroid": [
+                1804.0,
+                140.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "10",
+            "ocr_text": "Role assignments",
+            "visual_icon": "Role Assignments Icon",
+            "bbox": [
+                723,
+                164,
+                793,
+                192
+            ],
+            "centroid": [
+                758.0,
+                178.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "11",
+            "ocr_text": "Managed Identities",
+            "visual_icon": "Managed Identities Icon",
+            "bbox": [
+                1633,
+                152,
+                1738,
+                165
+            ],
+            "centroid": [
+                1685.5,
+                158.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "12",
+            "ocr_text": "Al Foundry Agent Service dependencies",
+            "visual_icon": "Text Box",
+            "bbox": [
+                894,
+                171,
+                1221,
+                192
+            ],
+            "centroid": [
+                1057.5,
+                181.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "13",
+            "ocr_text": "Azure Al Foundry Services",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1408,
+                171,
+                1626,
+                190
+            ],
+            "centroid": [
+                1517.0,
+                180.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "14",
+            "ocr_text": "User",
+            "visual_icon": "Generic Person Icon",
+            "bbox": [
+                192,
+                204,
+                219,
+                215
+            ],
+            "centroid": [
+                205.5,
+                209.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "15",
+            "ocr_text": "Al Foundry Project",
+            "visual_icon": "AI Foundry Project Icon",
+            "bbox": [
+                1467,
+                204,
+                1572,
+                218
+            ],
+            "centroid": [
+                1519.5,
+                211.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "16",
+            "ocr_text": "Inspection VNET",
+            "visual_icon": "Text Box",
+            "bbox": [
+                328,
+                220,
+                469,
+                239
+            ],
+            "centroid": [
+                398.5,
+                229.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "17",
+            "ocr_text": "Log Analytics Workspace",
+            "visual_icon": "Log Analytics Workspace Icon",
+            "bbox": [
+                1766,
+                207,
+                1842,
+                234
+            ],
+            "centroid": [
+                1804.0,
+                220.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "18",
+            "ocr_text": "Workload policy assignments",
+            "visual_icon": "Workload Policy Assignments Icon",
+            "bbox": [
+                713,
+                247,
+                801,
+                276
+            ],
+            "centroid": [
+                757.0,
+                261.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "19",
+            "ocr_text": "Azure Firewall",
+            "visual_icon": "Azure Firewall Icon",
+            "bbox": [
+                404,
+                275,
+                523,
+                293
+            ],
+            "centroid": [
+                463.5,
+                284.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "20",
+            "ocr_text": "Al Services endpoints",
+            "visual_icon": "AI Services Endpoints Icon",
+            "bbox": [
+                1313,
+                276,
+                1376,
+                303
+            ],
+            "centroid": [
+                1344.5,
+                289.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "21",
+            "ocr_text": "Storage Account",
+            "visual_icon": "Storage Account Icon",
+            "bbox": [
+                905,
+                290,
+                999,
+                303
+            ],
+            "centroid": [
+                952.0,
+                296.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "22",
+            "ocr_text": "Al Search",
+            "visual_icon": "AI Search Icon",
+            "bbox": [
+                1015,
+                290,
+                1071,
+                302
+            ],
+            "centroid": [
+                1043.0,
+                296.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "23",
+            "ocr_text": "Key Vault",
+            "visual_icon": "Key Vault Icon",
+            "bbox": [
+                1175,
+                290,
+                1229,
+                303
+            ],
+            "centroid": [
+                1202.0,
+                296.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "24",
+            "ocr_text": "Foundry Models",
+            "visual_icon": "Foundry Models Icon",
+            "bbox": [
+                1435,
+                278,
+                1482,
+                304
+            ],
+            "centroid": [
+                1458.5,
+                291.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "25",
+            "ocr_text": "Connections",
+            "visual_icon": "Connections Icon",
+            "bbox": [
+                1536,
+                278,
+                1605,
+                291
+            ],
+            "centroid": [
+                1570.5,
+                284.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "26",
+            "ocr_text": "Cosmos DB",
+            "visual_icon": "Cosmos DB Icon",
+            "bbox": [
+                1094,
+                291,
+                1156,
+                304
+            ],
+            "centroid": [
+                1125.0,
+                297.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "27",
+            "ocr_text": "Foundry Agent Service",
+            "visual_icon": "Foundry Agent Service Icon",
+            "bbox": [
+                1622,
+                280,
+                1705,
+                307
+            ],
+            "centroid": [
+                1663.5,
+                293.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "28",
+            "ocr_text": "Monitor",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1785,
+                297,
+                1830,
+                309
+            ],
+            "centroid": [
+                1807.5,
+                303.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "29",
+            "ocr_text": "Internet",
+            "visual_icon": "Internet Icon",
+            "bbox": [
+                134,
+                339,
+                179,
+                350
+            ],
+            "centroid": [
+                156.5,
+                344.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "30",
+            "ocr_text": "Tags",
+            "visual_icon": "Tags Icon",
+            "bbox": [
+                746,
+                341,
+                774,
+                355
+            ],
+            "centroid": [
+                760.0,
+                348.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "31",
+            "ocr_text": "Ingress VNET",
+            "visual_icon": "Text Box",
+            "bbox": [
+                326,
+                385,
+                436,
+                403
+            ],
+            "centroid": [
+                381.0,
+                394.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "32",
+            "ocr_text": "Al Services Virtual Network",
+            "visual_icon": "Text Box",
+            "bbox": [
+                664,
+                367,
+                890,
+                387
+            ],
+            "centroid": [
+                777.0,
+                377.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "33",
+            "ocr_text": "Application Insights",
+            "visual_icon": "Application Insights Icon",
+            "bbox": [
+                1775,
+                374,
+                1840,
+                402
+            ],
+            "centroid": [
+                1807.5,
+                388.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "34",
+            "ocr_text": "Application Gateway Subnet",
+            "visual_icon": "Application Gateway Subnet Icon",
+            "bbox": [
+                343,
+                419,
+                498,
+                434
+            ],
+            "centroid": [
+                420.5,
+                426.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "35",
+            "ocr_text": "Jump box Subnet",
+            "visual_icon": "Jump Box Subnet Icon",
+            "bbox": [
+                686,
+                412,
+                782,
+                426
+            ],
+            "centroid": [
+                734.0,
+                419.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "36",
+            "ocr_text": "Private Endpoints Subnet",
+            "visual_icon": "Private Endpoints Subnet Icon",
+            "bbox": [
+                1059,
+                410,
+                1199,
+                424
+            ],
+            "centroid": [
+                1129.0,
+                417.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "37",
+            "ocr_text": "API Management Subnet",
+            "visual_icon": "API Management Subnet Icon",
+            "bbox": [
+                1456,
+                411,
+                1552,
+                437
+            ],
+            "centroid": [
+                1504.0,
+                424.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "38",
+            "ocr_text": "AI Foundry Agent Subhet",
+            "visual_icon": "AI Foundry Agent Subnet Icon",
+            "bbox": [
+                1612,
+                410,
+                1711,
+                436
+            ],
+            "centroid": [
+                1661.5,
+                423.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "39",
+            "ocr_text": "Application Gateway",
+            "visual_icon": "Application Gateway Icon",
+            "bbox": [
+                375,
+                495,
+                439,
+                522
+            ],
+            "centroid": [
+                407.0,
+                508.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "40",
+            "ocr_text": "Jump Box VM",
+            "visual_icon": "Jump Box VM Icon",
+            "bbox": [
+                697,
+                494,
+                774,
+                507
+            ],
+            "centroid": [
+                735.5,
+                500.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "41",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                932,
+                486,
+                982,
+                513
+            ],
+            "centroid": [
+                957.0,
+                499.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "42",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1019,
+                487,
+                1069,
+                514
+            ],
+            "centroid": [
+                1044.0,
+                500.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "43",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1095,
+                488,
+                1145,
+                515
+            ],
+            "centroid": [
+                1120.0,
+                501.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "44",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1179,
+                488,
+                1229,
+                515
+            ],
+            "centroid": [
+                1204.0,
+                501.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "45",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1279,
+                488,
+                1329,
+                515
+            ],
+            "centroid": [
+                1304.0,
+                501.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "46",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1352,
+                487,
+                1402,
+                514
+            ],
+            "centroid": [
+                1377.0,
+                500.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "47",
+            "ocr_text": "Network Watcher",
+            "visual_icon": "Network Watcher Icon",
+            "bbox": [
+                1780,
+                471,
+                1828,
+                498
+            ],
+            "centroid": [
+                1804.0,
+                484.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "48",
+            "ocr_text": "WAF",
+            "visual_icon": "WAF Icon",
+            "bbox": [
+                469,
+                502,
+                496,
+                514
+            ],
+            "centroid": [
+                482.5,
+                508.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "49",
+            "ocr_text": "API Management",
+            "visual_icon": "API Management Icon",
+            "bbox": [
+                1459,
+                503,
+                1555,
+                516
+            ],
+            "centroid": [
+                1507.0,
+                509.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "50",
+            "ocr_text": "On-premises network",
+            "visual_icon": "On-Premises Network Icon",
+            "bbox": [
+                115,
+                543,
+                222,
+                583
+            ],
+            "centroid": [
+                168.5,
+                563.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "51",
+            "ocr_text": "Azure DDOS",
+            "visual_icon": "Azure DDoS Icon",
+            "bbox": [
+                346,
+                531,
+                446,
+                549
+            ],
+            "centroid": [
+                396.0,
+                540.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "52",
+            "ocr_text": "Container App Environment Subnet",
+            "visual_icon": "Container App Environment Subnet Icon",
+            "bbox": [
+                1450,
+                560,
+                1563,
+                587
+            ],
+            "centroid": [
+                1506.5,
+                573.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "53",
+            "ocr_text": "Build Agent Subnet",
+            "visual_icon": "Build Agent Subnet Icon",
+            "bbox": [
+                1612,
+                561,
+                1718,
+                574
+            ],
+            "centroid": [
+                1665.0,
+                567.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "54",
+            "ocr_text": "Redis Cache",
+            "visual_icon": "Redis Cache Icon",
+            "bbox": [
+                1760,
+                581,
+                1860,
+                598
+            ],
+            "centroid": [
+                1810.0,
+                589.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "55",
+            "ocr_text": "Corporate Subscription",
+            "visual_icon": "Text Box",
+            "bbox": [
+                301,
+                603,
+                492,
+                623
+            ],
+            "centroid": [
+                396.5,
+                613.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "56",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                852,
+                620,
+                902,
+                647
+            ],
+            "centroid": [
+                877.0,
+                633.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "57",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                923,
+                621,
+                973,
+                648
+            ],
+            "centroid": [
+                948.0,
+                634.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "58",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                998,
+                618,
+                1048,
+                645
+            ],
+            "centroid": [
+                1023.0,
+                631.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "59",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1079,
+                619,
+                1129,
+                646
+            ],
+            "centroid": [
+                1104.0,
+                632.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "60",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1166,
+                619,
+                1216,
+                646
+            ],
+            "centroid": [
+                1191.0,
+                632.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "61",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Private Endpoint Icon",
+            "bbox": [
+                1253,
+                620,
+                1303,
+                647
+            ],
+            "centroid": [
+                1278.0,
+                633.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "62",
+            "ocr_text": "Private Endpoint",
+            "visual_icon": "Unknown",
+            "bbox": [
+                1349,
+                619,
+                1399,
+                646
+            ],
+            "centroid": [
+                1374.0,
+                632.5
+            ],
+            "confidence_score": 0.0
+        },
+        {
+            "id": "63",
+            "ocr_text": "Corporate VNET",
+            "visual_icon": "Text Box",
+            "bbox": [
+                317,
+                642,
+                452,
+                661
+            ],
+            "centroid": [
+                384.5,
+                651.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "64",
+            "ocr_text": "Build Agent VM",
+            "visual_icon": "Build Agent VM Icon",
+            "bbox": [
+                1626,
+                641,
+                1712,
+                654
+            ],
+            "centroid": [
+                1669.0,
+                647.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "65",
+            "ocr_text": "Stack",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1792,
+                660,
+                1827,
+                673
+            ],
+            "centroid": [
+                1809.5,
+                666.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "66",
+            "ocr_text": "Azure DNS Private Resolver",
+            "visual_icon": "Azure DNS Private Resolver Icon",
+            "bbox": [
+                387,
+                675,
+                524,
+                716
+            ],
+            "centroid": [
+                455.5,
+                695.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "67",
+            "ocr_text": "VPN/ExpressRoute Gateways",
+            "visual_icon": "VPN/ExpressRoute Gateways Icon",
+            "bbox": [
+                376,
+                745,
+                534,
+                787
+            ],
+            "centroid": [
+                455.0,
+                766.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "68",
+            "ocr_text": "Enterprise and public knowledge sources",
+            "visual_icon": "Text Box",
+            "bbox": [
+                683,
+                734,
+                858,
+                775
+            ],
+            "centroid": [
+                770.5,
+                754.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "69",
+            "ocr_text": "GenAl app microservices",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1584,
+                736,
+                1788,
+                756
+            ],
+            "centroid": [
+                1686.0,
+                746.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "70",
+            "ocr_text": "GenAl app dependencies",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1017,
+                764,
+                1219,
+                784
+            ],
+            "centroid": [
+                1118.0,
+                774.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "71",
+            "ocr_text": "Managed Identities",
+            "visual_icon": "Managed Identities Icon",
+            "bbox": [
+                1387,
+                769,
+                1492,
+                782
+            ],
+            "centroid": [
+                1439.5,
+                775.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "72",
+            "ocr_text": "ExpressRoute",
+            "visual_icon": "ExpressRoute Icon",
+            "bbox": [
+                111,
+                793,
+                225,
+                812
+            ],
+            "centroid": [
+                168.0,
+                802.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "73",
+            "ocr_text": "Container App Environment",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1432,
+                799,
+                1660,
+                820
+            ],
+            "centroid": [
+                1546.0,
+                809.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "74",
+            "ocr_text": "Azure Firewall",
+            "visual_icon": "Azure Firewall Icon",
+            "bbox": [
+                395,
+                858,
+                514,
+                876
+            ],
+            "centroid": [
+                454.5,
+                867.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "75",
+            "ocr_text": "Grounding with Bing",
+            "visual_icon": "Surrounding with Bing Icon",
+            "bbox": [
+                691,
+                869,
+                750,
+                896
+            ],
+            "centroid": [
+                720.5,
+                882.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "76",
+            "ocr_text": "Al Search",
+            "visual_icon": "AI Search Icon",
+            "bbox": [
+                779,
+                871,
+                834,
+                884
+            ],
+            "centroid": [
+                806.5,
+                877.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "77",
+            "ocr_text": "Cosmos DB",
+            "visual_icon": "Cosmos DB Icon",
+            "bbox": [
+                917,
+                868,
+                979,
+                881
+            ],
+            "centroid": [
+                948.0,
+                874.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "78",
+            "ocr_text": "Key Vault",
+            "visual_icon": "Key Vault Icon",
+            "bbox": [
+                996,
+                869,
+                1051,
+                882
+            ],
+            "centroid": [
+                1023.5,
+                875.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "79",
+            "ocr_text": "Storage Account",
+            "visual_icon": "Storage Account Icon",
+            "bbox": [
+                1079,
+                862,
+                1127,
+                889
+            ],
+            "centroid": [
+                1103.0,
+                875.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "80",
+            "ocr_text": "Container Registry",
+            "visual_icon": "Container Registry Icon",
+            "bbox": [
+                1161,
+                863,
+                1217,
+                891
+            ],
+            "centroid": [
+                1189.0,
+                877.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "81",
+            "ocr_text": "App Configuration",
+            "visual_icon": "App Configuration Icon",
+            "bbox": [
+                1233,
+                862,
+                1309,
+                888
+            ],
+            "centroid": [
+                1271.0,
+                875.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "82",
+            "ocr_text": "dapr",
+            "visual_icon": "Dapr Icon",
+            "bbox": [
+                1399,
+                849,
+                1440,
+                867
+            ],
+            "centroid": [
+                1419.5,
+                858.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "83",
+            "ocr_text": "Frontend",
+            "visual_icon": "FrontEnd Icon",
+            "bbox": [
+                1442,
+                879,
+                1494,
+                892
+            ],
+            "centroid": [
+                1468.0,
+                885.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "84",
+            "ocr_text": "Orchestrator",
+            "visual_icon": "Orchestrator Icon",
+            "bbox": [
+                1500,
+                877,
+                1573,
+                890
+            ],
+            "centroid": [
+                1536.5,
+                883.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "85",
+            "ocr_text": "SK",
+            "visual_icon": "Build Icon",
+            "bbox": [
+                1607,
+                876,
+                1624,
+                887
+            ],
+            "centroid": [
+                1615.5,
+                881.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "86",
+            "ocr_text": "MCP",
+            "visual_icon": "Ingestion Icon",
+            "bbox": [
+                1661,
+                871,
+                1687,
+                883
+            ],
+            "centroid": [
+                1674.0,
+                877.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "87",
+            "ocr_text": "Ingestion",
+            "visual_icon": "Text Box",
+            "bbox": [
+                1718,
+                869,
+                1770,
+                882
+            ],
+            "centroid": [
+                1744.0,
+                875.5
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "88",
+            "ocr_text": "Egress Traffic",
+            "visual_icon": "Egress Traffic Icon",
+            "bbox": [
+                87,
+                902,
+                202,
+                922
+            ],
+            "centroid": [
+                144.5,
+                912.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "89",
+            "ocr_text": "Azure Bastion",
+            "visual_icon": "Azure Bastion Icon",
+            "bbox": [
+                399,
+                929,
+                515,
+                947
+            ],
+            "centroid": [
+                457.0,
+                938.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "90",
+            "ocr_text": "Security and Governance",
+            "visual_icon": "Ingress Traffic Icon",
+            "bbox": [
+                765,
+                928,
+                972,
+                947
+            ],
+            "centroid": [
+                868.5,
+                937.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "91",
+            "ocr_text": "Ingress Traffic",
+            "visual_icon": "Azure DDoS Icon",
+            "bbox": [
+                87,
+                953,
+                207,
+                972
+            ],
+            "centroid": [
+                147.0,
+                962.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "92",
+            "ocr_text": "Azure DDOS",
+            "visual_icon": "Text Box",
+            "bbox": [
+                340,
+                1008,
+                439,
+                1026
+            ],
+            "centroid": [
+                389.5,
+                1017.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "93",
+            "ocr_text": "Subscription policy assignments",
+            "visual_icon": "Subscription Policy Assignments Icon",
+            "bbox": [
+                673,
+                1002,
+                778,
+                1030
+            ],
+            "centroid": [
+                725.5,
+                1016.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "94",
+            "ocr_text": "Defender for Cloud",
+            "visual_icon": "Defender for Cloud Icon",
+            "bbox": [
+                791,
+                999,
+                844,
+                1026
+            ],
+            "centroid": [
+                817.5,
+                1012.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "95",
+            "ocr_text": "Azure DevOps",
+            "visual_icon": "Azure DevOps Icon",
+            "bbox": [
+                1298,
+                984,
+                1362,
+                1020
+            ],
+            "centroid": [
+                1330.0,
+                1002.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "96",
+            "ocr_text": "Azure AD P2",
+            "visual_icon": "Azure AD P2 Icon",
+            "bbox": [
+                1418,
+                981,
+                1497,
+                1016
+            ],
+            "centroid": [
+                1457.5,
+                998.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "97",
+            "ocr_text": "Prometheus",
+            "visual_icon": "Prometheus Icon",
+            "bbox": [
+                1539,
+                992,
+                1639,
+                1010
+            ],
+            "centroid": [
+                1589.0,
+                1001.0
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "98",
+            "ocr_text": "DNS",
+            "visual_icon": "Text Box",
+            "bbox": [
+                548,
+                1015,
+                576,
+                1029
+            ],
+            "centroid": [
+                562.0,
+                1022.0
+            ],
+            "confidence_score": 1.0
+        },
+        {
+            "id": "99",
+            "ocr_text": "Entra ID",
+            "visual_icon": "Entrata Icon",
+            "bbox": [
+                899,
+                1012,
+                945,
+                1025
+            ],
+            "centroid": [
+                922.0,
+                1018.5
+            ],
+            "confidence_score": 0.95
+        },
+        {
+            "id": "100",
+            "ocr_text": "Purview",
+            "visual_icon": "Survey Icon",
+            "bbox": [
+                980,
+                1014,
+                1025,
+                1027
+            ],
+            "centroid": [
+                1002.5,
+                1020.5
+            ],
+            "confidence_score": 0.95
+        }
+    ]
+}

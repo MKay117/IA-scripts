@@ -1,0 +1,786 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "label": "Azure Al Landing Zone",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "1"
+        },
+        {
+            "label": "DMZ Subscription",
+            "icon_type": "Text Box",
+            "parent_id": "1",
+            "confidence": 1.0,
+            "id": "2"
+        },
+        {
+            "label": "Al Landing Zone Prod Subscription",
+            "icon_type": "Text Box",
+            "parent_id": "1",
+            "confidence": 1.0,
+            "id": "3"
+        },
+        {
+            "label": "Ext Systems Payment GW Moengage UIDAI NSDL NPCHI NSEIT",
+            "icon_type": "Text Box",
+            "parent_id": "1",
+            "confidence": 1.0,
+            "id": "4"
+        },
+        {
+            "label": "Egress VNET",
+            "icon_type": "Generic Person Icon",
+            "parent_id": "2",
+            "confidence": 0.95,
+            "id": "5"
+        },
+        {
+            "label": "Al App Resource Group",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "6"
+        },
+        {
+            "label": "Proxy Firewall",
+            "icon_type": "Firewall Icon",
+            "parent_id": "5",
+            "confidence": 0.95,
+            "id": "7"
+        },
+        {
+            "label": "Al Foundry Agent Service standard setup",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "8"
+        },
+        {
+            "label": "Diagnostics Settings",
+            "icon_type": "Diagnostic Settings Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "9"
+        },
+        {
+            "label": "Role assignments",
+            "icon_type": "Role Assignments Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "10"
+        },
+        {
+            "label": "Managed Identities",
+            "icon_type": "Managed Identities Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "11"
+        },
+        {
+            "label": "Al Foundry Agent Service dependencies",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "12"
+        },
+        {
+            "label": "Azure Al Foundry Services",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "13"
+        },
+        {
+            "label": "User",
+            "icon_type": "Generic Person Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "14"
+        },
+        {
+            "label": "Al Foundry Project",
+            "icon_type": "AI Foundry Project Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "15"
+        },
+        {
+            "label": "Inspection VNET",
+            "icon_type": "Text Box",
+            "parent_id": "2",
+            "confidence": 1.0,
+            "id": "16"
+        },
+        {
+            "label": "Log Analytics Workspace",
+            "icon_type": "Log Analytics Workspace Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "17"
+        },
+        {
+            "label": "Workload policy assignments",
+            "icon_type": "Workload Policy Assignments Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "18"
+        },
+        {
+            "label": "Azure Firewall",
+            "icon_type": "Azure Firewall Icon",
+            "parent_id": "16",
+            "confidence": 0.95,
+            "id": "19"
+        },
+        {
+            "label": "Al Services endpoints",
+            "icon_type": "AI Services Endpoints Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "20"
+        },
+        {
+            "label": "Storage Account",
+            "icon_type": "Storage Account Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "21"
+        },
+        {
+            "label": "Al Search",
+            "icon_type": "AI Search Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "22"
+        },
+        {
+            "label": "Key Vault",
+            "icon_type": "Key Vault Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "23"
+        },
+        {
+            "label": "Foundry Models",
+            "icon_type": "Foundry Models Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "24"
+        },
+        {
+            "label": "Connections",
+            "icon_type": "Connections Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "25"
+        },
+        {
+            "label": "Cosmos DB",
+            "icon_type": "Cosmos DB Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "26"
+        },
+        {
+            "label": "Foundry Agent Service",
+            "icon_type": "Foundry Agent Service Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "27"
+        },
+        {
+            "label": "Monitor",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "28"
+        },
+        {
+            "label": "Internet",
+            "icon_type": "Internet Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "29"
+        },
+        {
+            "label": "Tags",
+            "icon_type": "Tags Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "30"
+        },
+        {
+            "label": "Ingress VNET",
+            "icon_type": "Text Box",
+            "parent_id": "2",
+            "confidence": 1.0,
+            "id": "31"
+        },
+        {
+            "label": "Al Services Virtual Network",
+            "icon_type": "Text Box",
+            "parent_id": "3",
+            "confidence": 1.0,
+            "id": "32"
+        },
+        {
+            "label": "Application Insights",
+            "icon_type": "Application Insights Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "33"
+        },
+        {
+            "label": "Application Gateway Subnet",
+            "icon_type": "Application Gateway Subnet Icon",
+            "parent_id": "31",
+            "confidence": 0.95,
+            "id": "34"
+        },
+        {
+            "label": "Jump box Subnet",
+            "icon_type": "Jump Box Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "35"
+        },
+        {
+            "label": "Private Endpoints Subnet",
+            "icon_type": "Private Endpoints Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "36"
+        },
+        {
+            "label": "API Management Subnet",
+            "icon_type": "API Management Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "37"
+        },
+        {
+            "label": "AI Foundry Agent Subhet",
+            "icon_type": "AI Foundry Agent Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "38"
+        },
+        {
+            "label": "Application Gateway",
+            "icon_type": "Application Gateway Icon",
+            "parent_id": "31",
+            "confidence": 0.95,
+            "id": "39"
+        },
+        {
+            "label": "Jump Box VM",
+            "icon_type": "Jump Box VM Icon",
+            "parent_id": "35",
+            "confidence": 0.95,
+            "id": "40"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "41"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "42"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "43"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "44"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "45"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": "36",
+            "confidence": 0.95,
+            "id": "46"
+        },
+        {
+            "label": "Network Watcher",
+            "icon_type": "Network Watcher Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "47"
+        },
+        {
+            "label": "WAF",
+            "icon_type": "WAF Icon",
+            "parent_id": "31",
+            "confidence": 0.95,
+            "id": "48"
+        },
+        {
+            "label": "API Management",
+            "icon_type": "API Management Icon",
+            "parent_id": "37",
+            "confidence": 0.95,
+            "id": "49"
+        },
+        {
+            "label": "On-premises network",
+            "icon_type": "On-Premises Network Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "50"
+        },
+        {
+            "label": "Azure DDOS",
+            "icon_type": "Azure DDoS Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "51"
+        },
+        {
+            "label": "Container App Environment Subnet",
+            "icon_type": "Container App Environment Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "52"
+        },
+        {
+            "label": "Build Agent Subnet",
+            "icon_type": "Build Agent Subnet Icon",
+            "parent_id": "32",
+            "confidence": 0.95,
+            "id": "53"
+        },
+        {
+            "label": "Redis Cache",
+            "icon_type": "Redis Cache Icon",
+            "parent_id": "3",
+            "confidence": 0.95,
+            "id": "54"
+        },
+        {
+            "label": "Corporate Subscription",
+            "icon_type": "Text Box",
+            "parent_id": "1",
+            "confidence": 1.0,
+            "id": "55"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "56"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "57"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "58"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "59"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "60"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Private Endpoint Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "61"
+        },
+        {
+            "label": "Private Endpoint",
+            "icon_type": "Unknown",
+            "parent_id": null,
+            "confidence": 0.0,
+            "id": "62"
+        },
+        {
+            "label": "Corporate VNET",
+            "icon_type": "Text Box",
+            "parent_id": "55",
+            "confidence": 1.0,
+            "id": "63"
+        },
+        {
+            "label": "Build Agent VM",
+            "icon_type": "Build Agent VM Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "64"
+        },
+        {
+            "label": "Stack",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "65"
+        },
+        {
+            "label": "Azure DNS Private Resolver",
+            "icon_type": "Azure DNS Private Resolver Icon",
+            "parent_id": "63",
+            "confidence": 0.95,
+            "id": "66"
+        },
+        {
+            "label": "VPN/ExpressRoute Gateways",
+            "icon_type": "VPN/ExpressRoute Gateways Icon",
+            "parent_id": "63",
+            "confidence": 0.95,
+            "id": "67"
+        },
+        {
+            "label": "Enterprise and public knowledge sources",
+            "icon_type": "Text Box",
+            "parent_id": "3",
+            "confidence": 1.0,
+            "id": "68"
+        },
+        {
+            "label": "GenAl app microservices",
+            "icon_type": "Text Box",
+            "parent_id": "3",
+            "confidence": 1.0,
+            "id": "69"
+        },
+        {
+            "label": "GenAl app dependencies",
+            "icon_type": "Text Box",
+            "parent_id": "3",
+            "confidence": 1.0,
+            "id": "70"
+        },
+        {
+            "label": "Managed Identities",
+            "icon_type": "Managed Identities Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "71"
+        },
+        {
+            "label": "ExpressRoute",
+            "icon_type": "ExpressRoute Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "72"
+        },
+        {
+            "label": "Container App Environment",
+            "icon_type": "Text Box",
+            "parent_id": "3",
+            "confidence": 1.0,
+            "id": "73"
+        },
+        {
+            "label": "Azure Firewall",
+            "icon_type": "Azure Firewall Icon",
+            "parent_id": "63",
+            "confidence": 0.95,
+            "id": "74"
+        },
+        {
+            "label": "Grounding with Bing",
+            "icon_type": "Surrounding with Bing Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "75"
+        },
+        {
+            "label": "Al Search",
+            "icon_type": "AI Search Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "76"
+        },
+        {
+            "label": "Cosmos DB",
+            "icon_type": "Cosmos DB Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "77"
+        },
+        {
+            "label": "Key Vault",
+            "icon_type": "Key Vault Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "78"
+        },
+        {
+            "label": "Storage Account",
+            "icon_type": "Storage Account Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "79"
+        },
+        {
+            "label": "Container Registry",
+            "icon_type": "Container Registry Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "80"
+        },
+        {
+            "label": "App Configuration",
+            "icon_type": "App Configuration Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "81"
+        },
+        {
+            "label": "dapr",
+            "icon_type": "Dapr Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "82"
+        },
+        {
+            "label": "Frontend",
+            "icon_type": "FrontEnd Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "83"
+        },
+        {
+            "label": "Orchestrator",
+            "icon_type": "Orchestrator Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "84"
+        },
+        {
+            "label": "SK",
+            "icon_type": "Build Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "85"
+        },
+        {
+            "label": "MCP",
+            "icon_type": "Ingestion Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "86"
+        },
+        {
+            "label": "Ingestion",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "87"
+        },
+        {
+            "label": "Egress Traffic",
+            "icon_type": "Egress Traffic Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "88"
+        },
+        {
+            "label": "Azure Bastion",
+            "icon_type": "Azure Bastion Icon",
+            "parent_id": "63",
+            "confidence": 0.95,
+            "id": "89"
+        },
+        {
+            "label": "Security and Governance",
+            "icon_type": "Ingress Traffic Icon",
+            "parent_id": "3",
+            "confidence": 0.95,
+            "id": "90"
+        },
+        {
+            "label": "Ingress Traffic",
+            "icon_type": "Azure DDoS Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "91"
+        },
+        {
+            "label": "Azure DDOS",
+            "icon_type": "Text Box",
+            "parent_id": "63",
+            "confidence": 1.0,
+            "id": "92"
+        },
+        {
+            "label": "Subscription policy assignments",
+            "icon_type": "Subscription Policy Assignments Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "93"
+        },
+        {
+            "label": "Defender for Cloud",
+            "icon_type": "Defender for Cloud Icon",
+            "parent_id": "90",
+            "confidence": 0.95,
+            "id": "94"
+        },
+        {
+            "label": "Azure DevOps",
+            "icon_type": "Azure DevOps Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "95"
+        },
+        {
+            "label": "Azure AD P2",
+            "icon_type": "Azure AD P2 Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "96"
+        },
+        {
+            "label": "Prometheus",
+            "icon_type": "Prometheus Icon",
+            "parent_id": null,
+            "confidence": 0.95,
+            "id": "97"
+        },
+        {
+            "label": "DNS",
+            "icon_type": "Text Box",
+            "parent_id": null,
+            "confidence": 1.0,
+            "id": "98"
+        },
+        {
+            "label": "Entra ID",
+            "icon_type": "Entrata Icon",
+            "parent_id": "90",
+            "confidence": 0.95,
+            "id": "99"
+        },
+        {
+            "label": "Purview",
+            "icon_type": "Survey Icon",
+            "parent_id": "90",
+            "confidence": 0.95,
+            "id": "100"
+        }
+    ],
+    "edges": [
+        {
+            "flow": "Bi-directional",
+            "meaning": "solid line (connectivity)",
+            "confidence": 0.95,
+            "source": "1",
+            "target": "50"
+        },
+        {
+            "flow": "Bi-directional",
+            "meaning": "solid line (ExpressRoute)",
+            "confidence": 0.95,
+            "source": "1",
+            "target": "72"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (data flow)",
+            "confidence": 0.95,
+            "source": "2",
+            "target": "3"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (data flow)",
+            "confidence": 0.95,
+            "source": "3",
+            "target": "55"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (firewall traffic)",
+            "confidence": 0.95,
+            "source": "7",
+            "target": "19"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (firewall traffic)",
+            "confidence": 0.95,
+            "source": "19",
+            "target": "39"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (WAF traffic)",
+            "confidence": 0.95,
+            "source": "39",
+            "target": "48"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (traffic to VNet)",
+            "confidence": 0.95,
+            "source": "48",
+            "target": "32"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (DNS resolution)",
+            "confidence": 0.95,
+            "source": "66",
+            "target": "67"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (firewall traffic)",
+            "confidence": 0.95,
+            "source": "67",
+            "target": "74"
+        },
+        {
+            "flow": "One-way",
+            "meaning": "solid line (traffic to Bastion)",
+            "confidence": 0.95,
+            "source": "74",
+            "target": "89"
+        }
+    ]
+}
